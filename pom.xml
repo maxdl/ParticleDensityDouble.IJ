@@ -8,7 +8,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>ParticleDensityDouble_</artifactId>
-	<version>1.0pre2</version>
+	<version>1.0pre3</version>
 
 	<name>plugins/ParticleDensityDouble_.jar</name>
 	<description>A Maven project for the ParticleDensityDouble plugin</description>
