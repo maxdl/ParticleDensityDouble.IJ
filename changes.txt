@@ -1,0 +1,3 @@
+2018-06-01
+- Increased the number of decimals (i.e., accuracy) used for pixel width in 
+  coordinate files saved by the ImageJ plugin to 4.

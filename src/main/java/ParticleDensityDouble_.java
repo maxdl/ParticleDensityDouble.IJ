@@ -26,10 +26,10 @@ import ij.measure.*;
 interface VersionPDD {
     String title = "ParticleDensityDouble";
     String author = "Max Larsson";
-    String version = "1.0pre3";
-    String year = "2015";
-    String month = "April";
-    String day = "21";
+    String version = "1.0.0";
+    String year = "2018";
+    String month = "June";
+    String day = "1";
     String email = "max.larsson@liu.se";
     String homepage = "http://www.hu.liu.se/forskning/larsson-max/software";
 }
