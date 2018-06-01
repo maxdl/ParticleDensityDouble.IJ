@@ -216,7 +216,7 @@ public class ParticleDensityDouble_ extends PlugInFrame implements OptionsPDD, A
             pixelwidth = c.pixelWidth;
             unit = c.getUnit();
         }
-        scaleLabel.setText(IJ.d2s(pixelwidth, 2) + " " + unit);
+        scaleLabel.setText(IJ.d2s(pixelwidth, 4) + " " + unit);
         commentLabel.setText(profile.comment);
     }
 
@@ -596,7 +596,7 @@ class ProfileDataPDD implements OptionsPDD {
 
 
     public boolean save(ImagePlus imp) {
-        int i;
+        int i, j;
         double pixelwidth;
         String s, unit;
         Polygon pol;
@@ -651,7 +651,7 @@ class ProfileDataPDD implements OptionsPDD {
                 pixelwidth = c.pixelWidth;
                 unit = c.getUnit();
             }
-            outf.println("PIXELWIDTH " + IJ.d2s(pixelwidth) + " " + unit);
+            outf.println("PIXELWIDTH " + IJ.d2s(pixelwidth, 4) + " " + unit);
             outf.println("PROFILE_TYPE " + this.profileType);
             outf.println("PROFILE_BORDER");
             pol = this.overlay.get(this.overlay.getIndex("profile border")).getPolygon();
